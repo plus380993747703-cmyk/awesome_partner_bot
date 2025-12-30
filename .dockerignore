@@ -8,14 +8,12 @@ __pycache__/
 .env
 .env.example
 
-# Логи и базы данных
-*.log
-*.sqlite3
-
-# IDE и редакторы
-.idea/
+# Git и IDE
+.git
+.gitignore
+.idea
 .vscode/
 
-# Docker
-*.env
-*.env.local
+# Логи, базы данных
+*.log
+*.sqlite3
