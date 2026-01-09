@@ -9,4 +9,4 @@ services:
       - key: BOT_TOKEN
         sync: false
       - key: ADMIN_USERNAME
-        value: awesome_partner
+        sync: false
