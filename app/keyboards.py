@@ -46,12 +46,7 @@ details_inline_map = {
             callback_data="design_details"
         )]
     ]),
-    "bot": InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(
-            text="📋 Задачи / Сроки / Расценки",
-            callback_data="bot_details"
-        )]
-    ])
+    "bot": contact_inline  # Для бота сразу кнопка контакта
 }
 
 # --- Подробности: текст из медиа ---
